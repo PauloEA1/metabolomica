@@ -1,1 +1,11 @@
 
+
+vector_a <- c("Falla de sistema urinario","Neoplasia","Infeccioso","Trauma","Falla sistema cardiovascular","Muesrte súbita","Cuerpo extraño") #causa de muerte
+vector_b <- c(16,13,23,19,4,3,1) #0 a 4
+vector_c <- c(33,23,15,5,6,3,5) #5 a 9
+vector_d <- c(47,50,13,3,9,1,0)#10 a 14
+vector_e <- c(43,37,2,1,2,0,0)#15+
+
+tabla <- data.frame(Motivo_de_muerte =vector_a, Cero_a_cuatro= vector_b, cinco_a_nueve_años=vector_c, diez_a_catorce_años=vector_d, quince_años_o_más=vector_e)
+  
+View(tabla)

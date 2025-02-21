@@ -85,3 +85,5 @@ geom_smooth(method = "lm",
             linewidth = 0.2)
                
 Grafica_1
+
+```
